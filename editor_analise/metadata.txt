@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Edição de Análise
+qgisMinimumVersion=3.0
+description=Edição de PDF e análise em Excel Padrão Terram
+version=0.1
+author=Igor Viana Souza - Terram Soluções Agronômica
+email=igor.souzavigor@gmail.com
+
+about=O objetivo principal do Plugin é facilitar a edição de arquivos PDF com base em análises realizadas nos laboratórios Ibra ou Exata, utilizando dados provenientes de uma planilha do Excel. Com o Plugin, você poderá selecionar uma determinada quantidade de amostras com base nos menores valores V%. Além disso, será possível filtrar e selecionar apenas as amostras que possuem presença de argila. Para maior organização, também será possível adicionar o nome do talhão correspondente a cada amostra. Essas funcionalidades do Plugin visam agilizar o processo de edição de PDFs relacionados às análises laboratoriais, facilitando a manipulação dos dados e permitindo uma melhor organização e visualização das informações. Igor Viana Souza, Analista de Geoprocessamento
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
